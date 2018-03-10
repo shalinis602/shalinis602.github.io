@@ -35,7 +35,7 @@ p {
 
 .sec {
 	clear: both;
-	width: 500px;
+	width: 480px;
     padding: 10px 35px 35px 35px;
     background: rgba(1, 1, 1, 0.3);
     border-radius: 25px;
@@ -148,19 +148,20 @@ font-size:15px;
 
 label
 {
-font-size:15px;
+font-size:18px;
 color:white;
 }
 
 input[type=text], select, textarea {
     width: 100%; /* Full width */
-    padding: 6px; /* Some padding */  
+    padding: 10px; /* Some padding */  
     border: 1px solid #ccc; /* Gray border */
-    border-radius: 10px; /* Rounded borders */
+    border-radius: 8px; /* Rounded borders */
     box-sizing: border-box; /* Make sure that padding and width stays in place */
     margin-top: 6px; /* Add a top margin */
-    margin-bottom: 16px; /* Bottom margin */
-    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+    margin-bottom: 18px; /* Bottom margin */
+    resize: vertical; /* Allow the user to vertically resize the textarea (not horizontally) */
+    height: 42px;
 }
 
 /* Style the submit button with a specific background color etc */
