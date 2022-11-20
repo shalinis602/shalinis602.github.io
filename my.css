@@ -4,7 +4,7 @@ body {
 	line-height: 1.5em;
 	font-family: 'Volkhov', 'Tangerine', Ubuntu, "Crimson Text", Arial, Helvetica, sans-serif;
 	font-size: 25px;
-	background: #4b4c3e url(images/backstars.png);	
+	background: #4b4c3e url(images/images.jfif);	
     background-size: cover;
 }
 
@@ -22,7 +22,7 @@ p {
 	float: right;
 	width: 240px;
     border-radius: 25px;
-    background: rgba(1, 1, 1, 0.4);
+    background: rgba(1, 1, 1, 0.4);i
     padding: 30px;
 
 }
