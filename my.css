@@ -4,7 +4,8 @@ body {
 	line-height: 1.5em;
 	font-family: 'Volkhov', 'Tangerine', Ubuntu, "Crimson Text", Arial, Helvetica, sans-serif;
 	font-size: 25px;
-	background: #ffffff;	
+	background-image: none;
+	background-color: #ffffff;	
     background-size: cover;
 }
 
