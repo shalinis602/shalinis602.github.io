@@ -1,39 +1,41 @@
 # Personal Website
 
-Welcome to my personal website repository! This site is built using HTML and CSS and showcases my projects, blog, and more.
+Welcome to my personal website repository! This website serves as a personal portfolio to display my projects, share my blog posts, and provide a bit of information about me. It's a minimalist site built using HTML and CSS.
 
 ![Website Screenshot](path/to/your/screenshot.png)
 
-## Table of Contents
 
-- [About](#about)
-- [Setup](#setup)
-- [Usage](#usage)
-- [Contact](#contact)
 
-## About
+## Running the Project Locally
 
-This website serves as a personal portfolio to display my work, share my blog posts, and provide a bit of information about me. It includes sections for my projects, a blog, and contact.
+To run this project on your local machine, follow these steps:
 
-## Setup
+1. **Clone the Repository:**
 
-To run this project locally, follow these steps:
+   ```
+   git clone git@github.com:shalinis602/shalini.sinha.github.io.git
+   cd your-repository
+   ```
 
-1. Clone the repository:
-    ```bash
-    git clone https://github.com/your-username/your-repo-name.git
-    ```
+2. **Start a Local HTTP Server:**
 
-2. Navigate to the project directory:
-    ```bash
-    cd your-repo-name
-    ```
+   - If you have Python installed (which is likely):
 
-3. Open `index.html` in your browser to view the website.
+     ```
+     # For Python 3.x
+     python -m http.server
+     # For Python 2.x (though Python 3.x is recommended)
+     python -m SimpleHTTPServer
+     ```
 
-## Usage
+3. **Access the Application:**
 
-This website can be used as a personal portfolio to showcase projects and share blog posts. You can customize the content by editing the HTML and CSS files.
+   - Open your web browser and go to `http://localhost:8000`.
+   - You should see the application running locally.
+
+4. **Stop the Server:**
+
+   - Press `Ctrl + C` in the terminal where the server is running to stop it.
 
 ## Contact
 
