@@ -33,10 +33,6 @@ To run this project on your local machine, follow these steps:
    - Open your web browser and go to `http://localhost:8000`.
    - You should see the application running locally.
 
-4. **Stop the Server:**
-
-   - Press `Ctrl + C` in the terminal where the server is running to stop it.
-
 ## Contact
 
 Feel free to reach out via email at [shalinisinha602@gmail.com](mailto:shalinisinha602@gmail.com) or connect with me on [Twitter](https://x.com/asimov_algos)

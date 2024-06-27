@@ -1,0 +1,126 @@
+/* Reset default margins, padding, and font styles */
+body {
+    margin: 0;
+    padding: 0;
+    line-height: 1.5em;
+    font-family: 'Montserrat', 'Inter', sans-serif;
+    font-size: 25px;
+    background-image: none;
+    background-color: white;
+    background-size: cover;
+}
+
+/* Container styling */
+#container {
+    width: 950px;
+    margin: 20px auto;
+    padding: 30px 0 0 0; /*t-r-b-l */
+    color: black; /* Text color inside container */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Styling for the top menu */
+#menu {
+    margin-top: 20px;
+    clear: both;
+    width: 950px;
+    height: 50px;
+    background: white; /* Background color */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+/* Styling for menu items */
+#menu ul  {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: inline-block;
+}
+
+#menu ul li {
+    display: inline-block;
+    margin-right: 20px;
+    position: relative;
+}
+
+#menu ul li:last-child {
+    margin-right: 0; /* Remove margin from the last menu item */
+} 
+
+#menu ul li a {
+    display: block;
+    padding: 10px 20px;
+    text-align: center;
+    font-size: 18px;
+    text-decoration: none;
+    color: black;
+    transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+/* Add a border-bottom indicator for each menu item */
+#menu ul li::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background-color: transparent; /* Initial transparent color */
+    transition: background-color 0.3s ease; /* Smooth transition for visibility */
+}
+
+/* Styling for menu item hover and current item */
+#menu li a:hover, #menu li .current{
+    color: #FFF;
+    background: rgba(1, 1, 1, 0.8); /* Hover and current item background */
+    border-radius: 25px;
+}
+
+.intro {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 820px;
+    padding: 35px 35px 35px 5px; /*t-r-b-l*/
+    background: white; /* Background color */
+    border-radius: 25px;
+    margin-left: 50px;
+}
+
+/* Heading 3 styling */
+.intro h5 {
+    color: black; /* Heading text color */
+    margin-bottom: 0px;
+}
+
+/* Paragraph styling */
+.intro p {
+    color: black; /* Paragraph text color */
+    font-size: 15px; /* Paragraph font size */
+}
+
+/* Footer styling */
+#footer {
+    clear: both;
+    color: black; /* Text color */
+    width: 950px;
+    padding: 0px;
+    text-align: center;
+    background-color: rgba(1, 1, 1, 0); /* Transparent background */
+    font-size: 12px;
+}
+
+.icon {
+    display: inline-block; /* For white in black circle */
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    margin-right: 20px;
+    font-size: 30px;
+    border-radius: 60%;
+    background-color: black;
+    color: white;
+    }
