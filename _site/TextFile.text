@@ -1,0 +1,21 @@
+# Example _config.yml for Jekyll
+
+title: Shalini
+description: A brief description of your site
+baseurl: "/" # The subpath of your site, e.g., /blog/
+url: "https://shalinis602.github.io" # The base hostname & protocol for your site
+
+# Build settings
+markdown: kramdown
+theme: minima
+plugins:
+  - jekyll-feed
+
+# Permalinks
+permalink: /:categories/:title/
+
+# GitHub Pages specific settings
+github_username: shalinis602
+
+# Other settings as per your site's requirements
+
