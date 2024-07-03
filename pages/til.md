@@ -1,5 +1,6 @@
 ---
 layout: default
+permalink: /pages/til.html
 title: Today I Learned
 ---
 
