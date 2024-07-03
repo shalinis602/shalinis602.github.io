@@ -2,7 +2,9 @@
 
 Welcome to my personal website repository! This website serves as a personal portfolio to display my projects, share my blog posts, and provide a bit of information about me. It's a minimalist site built using HTML, CSS, Javascript and Jekyll.
 
-#add image
+![Website Screenshot](path/to/your/screenshot.png)
+
+
 
 ## Running the Project Locally
 
