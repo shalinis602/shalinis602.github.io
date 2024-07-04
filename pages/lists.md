@@ -1,4 +1,5 @@
 ---
 layout: default
-title: Today I Learned
+permalink: /pages/lists.html
+title: Lists
 ---

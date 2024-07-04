@@ -1,6 +1,6 @@
 # Personal Website
 
-Welcome to my personal website repository! This website serves as a personal portfolio to display my projects, share my blog posts, and provide a bit of information about me. It's a minimalist site built using HTML, CSS, Javascript and Jekyll.
+Welcome to my personal website repository! This website serves as a personal portfolio to display my projects, share my blog posts, learning journal and some fun stuff. It's a minimalist site built using HTML, CSS, Javascript and Jekyll.
 
 #add image
 
@@ -8,14 +8,14 @@ Welcome to my personal website repository! This website serves as a personal por
 
 To run this project on your local machine, follow these steps:
 
-- **Clone the Repository:**
+1. **Clone the Repository:**
 
 ```
 git clone git@github.com:shalinis602/shalini.sinha.github.io.git
 cd repository
 ```
 
-- **Check Gemfile Presence:** Ensure that you have a `Gemfile` in the root directory of your Jekyll project. If you don't have one, you can create it manually.
+2. **Check Gemfile Presence:** Ensure that you have a `Gemfile` in the root directory of your Jekyll project. If you don't have one, you can create it manually.
 
 Example `Gemfile`:
 
@@ -25,13 +25,13 @@ gem 'jekyll'
 gem 'github-pages', group: :jekyll_plugins
 ```
 
-- **Install Bundler:** Bundler is a tool for managing Ruby gem dependencies. If you haven't installed Bundler yet, you can do so using RubyGems:
+3. **Install Bundler:** Bundler is a tool for managing Ruby gem dependencies. If you haven't installed Bundler yet, you can do so using RubyGems:
 
 ```
 gem install bundler
 ```
 
-- **Install Gems:** Once Bundler is installed and you have a `Gemfile`, navigate to your project directory in the terminal and run:
+4. **Install Gems:** Once Bundler is installed and you have a `Gemfile`, navigate to your project directory in the terminal and run:
 
 ```
 bundle install
@@ -39,13 +39,13 @@ bundle install
 
 This command installs all the gems specified in your `Gemfile`, including Jekyll and any other dependencies.
 
-- **Run the Jekyll site locally:**
+5. **Run the Jekyll site locally:**
 
 ```
 bundle exec jekyll serve
 ```
 
-- **Access the Local Site:**
+6. **Access the Local Site:**
 
 Open your web browser and go to `http://localhost:8000`. This URL typically serves your Jekyll site locally. If port 4000 is already in use, Jekyll will assign a different port, which will be displayed in your terminal.
 
