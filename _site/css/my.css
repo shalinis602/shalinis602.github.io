@@ -68,7 +68,7 @@ body {
     height: 5px;
     bottom: 14px;
     left: 15%; /* Adjust left position to center the underline */
-    border-bottom: 1px dotted black; /* Dotted Line */
+    border-bottom: 1px solid black; /* Solid underline */
     transition: background-color 0.3s ease; /* Smooth transition for visibility */
 }
 
