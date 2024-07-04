@@ -32,8 +32,9 @@ body {
 
 /* Styling for menu items */
 #menu ul  {
-    list-style: none;
     display: inline-block;
+    margin: 0;
+    padding: 0;
 }
 
 #menu ul li {
@@ -55,6 +56,7 @@ body {
     color: black;
     position: relative;
     transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+    line-height: 30px;
 }
 
 /* Add a border-bottom indicator for each menu item */
@@ -62,14 +64,19 @@ body {
     content: '';
     display: block;
     position: absolute;
-    width: 100%;
-    height: 1px;
+    width: 70%;
+    height: 5px;
+    bottom: 14px;
+    left: 15%; /* Adjust left position to center the underline */
+    border-bottom: 1px dotted black; /* Dotted Line */
     transition: background-color 0.3s ease; /* Smooth transition for visibility */
 }
 
 /* Hover effect for menu items */
 #menu ul li:hover::after {
-    width: 0; /* Hide the underline on hover */
+    width: 0%;
+    left: 50%;
+    border-color: transparent; /* Change color on hover */
 }
 
 /* Styling for menu item hover and current item */
@@ -101,10 +108,6 @@ body {
     background: white; /* Background color */
     border-radius: 25px;
     margin-left: 50px;
-}
-
-/* Paragraph styling */
-#intro {
     color: black; /* Paragraph text color */
     font-size: 18px; /* Paragraph font size */
 }

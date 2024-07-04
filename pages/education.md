@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /pages/til.html
+permalink: /pages/education.html
 title: Today I Learned
 ---
 
