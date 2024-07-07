@@ -1,7 +1,7 @@
 ---
 layout: default
 permalink: /pages/education.html
-title: Today I Learned
+title: Education
 ---
 
 - [Link to another page](2024_07_03.md)

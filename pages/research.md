@@ -1,7 +1,7 @@
 ---
 layout: default
 permalink: /pages/research.html
-title: Blog
+title: Research
 ---
 
 - Item 1
