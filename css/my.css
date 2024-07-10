@@ -1,10 +1,9 @@
-/* Reset default margins, padding, and font styles */
 body {
     margin: 0;
     padding: 0;
-    line-height: 1.5em;
+    line-height: 16px;
     font-family: 'Inter', sans-serif;
-    font-size: 18px;
+    font-size: 16px;
     background-image: none;
     background-color: white;
     background-size: cover;
@@ -12,7 +11,8 @@ body {
 
 /* Container styling */
 #container {
-    width: 950px;
+    width: 100%;
+    max-width: 800px;
     margin: 20px auto;
     padding: 30px 0 20px 0; /*t-r-b-l */
     color: black; /* Text color inside container */
@@ -21,37 +21,46 @@ body {
 
 /* Styling for the top menu */
 #menu {
+    display: flex;
+    justify-content: space-between;
     margin-top: 20px;
-    clear: both;
-    width: 950px;
+    width: 95%;
     height: 50px;
     background: white; /* Background color */
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
+nav {
+    flex: 1;
+    text-align: right;
+}
 /* Styling for menu items */
-#menu ul  {
-    display: inline-block;
+nav ul  {
+    display: flex;
+    justify-content: flex-end;
     margin: 0;
     padding: 0;
 }
 
-#menu ul li {
+nav ul li {
     display: inline-block;
-    margin-right: 20px;
     position: relative;
+    list-style: none;
 }
 
-#menu ul li:last-child {
+nav ul li:last-child {
     margin-right: 0; /* Remove margin from the last menu item */
 } 
 
-#menu ul li a {
+/* Menu Items */
+nav ul li a {
     display: block;
-    padding: 10px 20px; /*t-b l-r*/
+    padding: 10px 12px; /*t-b-l-r*/
     text-align: center;
-    font-size: 20px;
+    font-size: 16px;
     text-decoration: none;
     color: black;
     position: relative;
@@ -60,30 +69,45 @@ body {
 }
 
 /* Add a border-bottom indicator for each menu item */
-#menu ul li::after {
+nav ul li::after {
     content: '';
     display: block;
     position: absolute;
     width: 70%;
-    height: 5px;
+    height: 1px;
     bottom: 14px;
     left: 15%; /* Adjust left position to center the underline */
-    border-bottom: 1px solid black; /* Solid underline */
+    border-bottom: 0px dotted black; /* Solid underline */
+    background-color: black;
     transition: background-color 0.3s ease; /* Smooth transition for visibility */
 }
 
 /* Hover effect for menu items */
-#menu ul li:hover::after {
+nav ul li:hover::after {
     width: 0%;
     left: 50%;
     border-color: transparent; /* Change color on hover */
 }
 
 /* Styling for menu item hover and current item */
-#menu li a:hover, #menu li .current{
+nav li a:hover, #menu li .current{
     color: #FFF;
     background: rgba(1, 1, 1, 0.8); /* Hover and current item background */
     border-radius: 25px;
+}
+
+.branding {
+    padding-left: 20px;
+}
+
+.branding h1 {
+    margin:0;
+}
+
+.branding a {
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
 }
 
 .middle {
@@ -109,7 +133,7 @@ body {
     border-radius: 25px;
     margin-left: 50px;
     color: black; /* Paragraph text color */
-    font-size: 18px; /* Paragraph font size */
+    font-size: 16px; /* Paragraph font size */
 }
 
 /* Footer styling */
@@ -134,5 +158,4 @@ body {
     border-radius: 60%;
     background-color: black;
     color: white;
-    }
-    
+    }    
