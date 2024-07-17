@@ -1,7 +1,7 @@
 ---
 layout: default
-permalink: /pages/education.html
-title: Education
+permalink: /pages/learning.html
+title: Learning
 ---
 
 - [Link to another page](2024_07_03.md)

@@ -1,3 +1,7 @@
+html, body {
+    overflow-x: hidden;
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -16,8 +20,8 @@ body {
     margin: 20px auto;
     padding: 30px 0 20px 0; /*t-r-b-l */
     color: black; /* Text color inside container */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
+/*    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
 
 /* Styling for the top menu */
 #menu {
@@ -27,7 +31,7 @@ body {
     width: 95%;
     height: 50px;
     background: white; /* Background color */
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    /*box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);*/
     text-align: center;
     padding-left: 20px;
     padding-right: 20px;
