@@ -97,17 +97,24 @@ nav li a:hover, #menu li .current{
 }
 
 .branding {
-    padding-left: 20px;
-}
-
-.branding h1 {
-    margin:0;
+    padding-left: 40px;
+    padding-top: 0px;
+    padding-bottom: 10px;
 }
 
 .branding a {
     text-decoration: none;
-    color: black;
-    font-size: 16px;
+    color: inherit;
+    font-size: 20px;
+    display: inline-block; /* For white in black circle */
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    margin-right: 20px;
+    border-radius: 50%;
+    background-color: black;
+    color: white;
 }
 
 .middle {
@@ -140,7 +147,7 @@ nav li a:hover, #menu li .current{
 #footer {
     clear: both;
     color: black; /* Text color */
-    width: 950px;
+    width: 100%;
     padding: 0px;
     text-align: center;
     background-color: rgba(1, 1, 1, 0); /* Transparent background */
@@ -149,12 +156,12 @@ nav li a:hover, #menu li .current{
 
 .icon {
     display: inline-block; /* For white in black circle */
-    width: 60px;
-    height: 60px;
-    line-height: 60px;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
     text-align: center;
     margin-right: 20px;
-    font-size: 30px;
+    font-size: 25px;
     border-radius: 60%;
     background-color: black;
     color: white;
