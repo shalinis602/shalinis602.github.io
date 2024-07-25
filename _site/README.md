@@ -48,7 +48,3 @@ bundle exec jekyll serve
 6. **Access the Local Site:**
 
 Open your web browser and go to `http://localhost:8000`. This URL typically serves your Jekyll site locally. If port 4000 is already in use, Jekyll will assign a different port, which will be displayed in your terminal.
-
-## Contact
-
-Feel free to reach out via email at [shalinisinha602@gmail.com](mailto:shalinisinha602@gmail.com) or connect with me on [Twitter](https://x.com/asimov_algos)
