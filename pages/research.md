@@ -4,5 +4,7 @@ permalink: /pages/research.html
 title: Research
 ---
 
-- Item 1
+- [Link to another page](2024_07_03.md)
 - Item 2
+- Item 3
+
